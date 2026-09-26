@@ -1,10 +1,9 @@
 const DEFAULT_CONFIG = {
 	// CDN 测速地址，格式为 "访问地址#显示名称"。
 	URLS: [
-		'https://blog.cmliussss.com#Ali CDN',
-		'https://fastly.blog.cmliussss.com#Fastly CDN',
-		'https://vercel.blog.cmliussss.com#Vercel CDN',
-		'https://netlify.blog.cmliussss.com#Netlify CDN'
+		'https://bl.022311.xyz/#Fastly CDN',
+		'https://blog.022311.xyz/#Vercel CDN',
+		//'https://netlify.blog.cmliussss.com#Netlify CDN'
 	],
 	// /ads.txt 返回内容。
 	ADS: 'google.com, pub-9350003957494520, DIRECT, f08c47fec0942fa0',
@@ -23,7 +22,7 @@ const DEFAULT_CONFIG = {
 	// 页面主标题。
 	TITLE: 'BlogCDN 智能路由',
 	// 浏览器标题栏中显示的站点名称。
-	NAME: 'CMLiussss Blog'
+	NAME: 'esoter Blog'
 };
 
 export async function onRequest(context) {
